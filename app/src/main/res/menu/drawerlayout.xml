@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+    <item
+        android:icon="@drawable/logout"
+        android:id="@+id/menuLogout"
+        android:title="로그아웃"/>
+    <item
+        android:icon="@drawable/share"
+        android:id="@+id/menuNoti"
+        android:title="기록 공유하기"/>
+    </group>
+</menu>

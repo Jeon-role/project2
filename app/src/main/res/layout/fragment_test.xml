@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".TestFragment">
+    <LinearLayout
+        android:id="@+id/linearLayoutImg"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageTest"
+        android:src="@drawable/question"
+        android:layout_width="55dp"
+        android:layout_height="55dp" />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/testfInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
+
+</FrameLayout>

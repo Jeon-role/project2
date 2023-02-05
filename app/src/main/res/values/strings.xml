@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">나는 치매일까?</string>
+    <string name="rule">카드 뒤집기 게임 규칙</string>
+    <string name="ranking">&lt; 카드 뒤집기 게임 순위 &gt;</string>
+    <string name="barChart">&lt; 카드 뒤집기 그래프 &gt;</string>
+</resources>
